@@ -1,13 +1,94 @@
 html {
-  background: #f5f5f5 url('/static/images/background.png');
+    background: #f5f5f5 url('/static/images/background.png');
+    padding: 40px 0;
 }
 
 .logo {
-  display: block;
-  left: 50%;
-  margin-left: -298px;
-  margin-top: -203px;
-  position: absolute;
-  top: 50%;
-  width: 596px;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
+
+.tagline {
+    color: #00b8f1;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main {
+    border: 1px dashed #d4d4d4;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.header {
+    color: #00b8f1;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 48px;
+    margin: 0;
+}
+
+.blurb {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.contact {
+    margin: 20px 0;
+    min-height: 50px;
+}
+
+.contact-icon {
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 20px;
+    width: 50px;
+}
+
+.contact-blurb {
+    color: #445963;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.contact-blurb a {
+    color: #00b8f1;
+    text-decoration: none;
+}
+
+.submit-link {
+}
+
+.submit-icon {
+}
+
+.small {
+    font-size: 10px;
+}
+
+.social-link {
+}
+
+.social-icon {
+    float: left;
+    height: 37px;
+    margin-right: 2px;
+    width: 37px;
+}
+
+.social {
+    color: #999999;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 37px;
+    margin: 0;
+    text-indent: 20px;
 }
