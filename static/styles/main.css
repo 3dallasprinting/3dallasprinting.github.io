@@ -1,0 +1,13 @@
+html {
+  background: #f5f5f5 url('/static/images/background.png');
+}
+
+.logo {
+  display: block;
+  left: 50%;
+  margin-left: -298px;
+  margin-top: -203px;
+  position: absolute;
+  top: 50%;
+  width: 596px;
+}
