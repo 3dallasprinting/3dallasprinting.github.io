@@ -73,6 +73,10 @@ html {
     text-decoration: none;
 }
 
+.contact-blurb a:hover {
+    color: inherit;
+}
+
 .submit-link {
     display: block;
     height: 54px;
