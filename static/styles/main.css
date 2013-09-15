@@ -74,13 +74,21 @@ html {
 }
 
 .social-link {
+    display: block;
+    float: left;
+    height: 37px;
+    overflow: hidden;
+    width: 37px;
+}
+
+.social-link:hover .social-icon {
+    margin-left: 3px;
+    margin-top: 3px;
 }
 
 .social-icon {
-    float: left;
-    height: 37px;
+    display: block;
     margin-right: 2px;
-    width: 37px;
 }
 
 .social-blurb {
