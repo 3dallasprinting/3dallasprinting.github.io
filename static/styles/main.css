@@ -60,9 +60,19 @@ html {
 }
 
 .submit-link {
+    display: block;
+    height: 54px;
+    overflow: hidden;
+    width: 313px;
+}
+
+.submit-link:hover .submit-icon {
+    margin-left: 3px;
+    margin-top: 3px;
 }
 
 .submit-icon {
+    display: block;
 }
 
 .small {
