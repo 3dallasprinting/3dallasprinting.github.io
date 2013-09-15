@@ -5,6 +5,19 @@ html {
     padding: 40px 0;
 }
 
+.container {
+    margin: 0 auto;
+    width: 1170px;
+}
+
+.column {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 565px;
+}
+
 .logo {
     display: block;
     height: auto;
