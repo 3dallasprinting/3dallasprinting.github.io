@@ -2,44 +2,61 @@
 layout: base
 ---
 
-<div class="container">
-  <div class="column">
-    <img alt="3Dallas Printing" class="logo" height="405" src="/static/images/3dallas-printing.png" width="596">
+<style>
+  html {
+    background: url("/static/images/3d-printed-sugar.jpg") repeat scroll left top / cover  transparent;
+  }
 
-    <p class="tagline">"Our Queue Will Never Be Full"</p>
-  </div>
+  .content {
+    background: rgba(255, 255, 255, 0.5);
+  }
 
-  <div class="column">
-    <div class="main">
-      <h1 class="header">DFW finally has<br>a real 3D Print Shop</h1>
+  .masthead {
+    color: #475965;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 96px;
+    margin: 0;
+    padding: 0;
+  }
 
-      <p class="blurb">3Dallas Printing runs a Object260v which allows for a vast array of precise 16-micron printing with the widest range of materials.</p>
+  .subhead {
+    color: #02afeb;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 20px 0;
+  }
 
-      <p class="blurb">The perfect solution for your rapid prototyping needs.</p>
+  .notice {
+    color: #69676a;
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+    width: 313px;
+  }
 
-      <div class="contact">
-        <img alt="Phone" class="contact-icon" src="/static/images/phone.png">
+  .tagline {
+    color: #3c4d55;
+    font-size: 32px;
+    font-style: italic;
+    margin-top: 80px;
+  }
+</style>
 
-        <p class="contact-blurb">Please call 972.907.1803<br>for more information,</p>
-      </div>
+<h1 class="masthead">
+  DFW finally<br>
+  has a real<br>
+  3D Print Shop
+</h1>
 
-      <div class="contact">
-        <img alt="Email" class="contact-icon" src="/static/images/email.png">
+<h2 class="subhead">The perfect solution for your rapid prototyping needs.</h2>
 
-        <p class="contact-blurb">or email us at<br><a href="mailto:print@3dallasprinting.com">print@3dallasprinting.com</a></p>
-      </div>
+<a href="mailto:print@3dallasprinting.com">
+  <img alt="Submit a print file" heigh="54" src="/static/images/submit.png" width="313">
+</a>
 
-      <a class="submit-link" href="mailto:print@3dallasprinting.com"><img alt="Submit a print file" class="submit-icon" height="54" src="/static/images/submit.png" width="313"></a>
+<p class="notice">.STL files only. Please contact us for a print quote or for more information on orders.</p>
 
-      <p class="small">.STL files only. Please contact us for a print quote or for more information on orders.</p>
-    </div>
-
-    <div class="social">
-      <a class="social-link" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F3dallasprinting.com"><img alt="Facebook" class="social-icon" src="/static/images/facebook.png"></a>
-
-      <a class="social-link" href="https://twitter.com/intent/tweet?url=http%3A%2F%2F3dallasprinting.com"><img alt="Twitter" class="social-icon" src="/static/images/twitter.png"></a>
-
-      <p class="social-blurb">Don't be shy, let everyone else know.</p>
-    </div>
-  </div>
-</div>
+<p class="tagline">"Our Queue Will Never Be Full"</p>
