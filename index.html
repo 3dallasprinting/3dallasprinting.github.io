@@ -250,6 +250,30 @@
         line-height: 1em;
         margin-bottom: 1em;
       }
+
+      /* Lightbox */
+
+      .lightbox {
+        background:
+          url('http://ajaxload.info/cache/00/00/00/FF/FF/FF/1-1.gif') no-repeat center,
+          rgba(0, 0, 0, 0.5);
+        display: none;
+        height: 100%;
+        left: 0;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 2;
+      }
+
+      #lightbox {
+        background: no-repeat center / contain;
+        height: 90%;
+        left: 5%;
+        position: absolute;
+        top: 5%;
+        width: 90%;
+      }
     </style>
 
     <title>3Dallas Printing</title>
@@ -468,6 +492,10 @@
       </div>
     </div>
 
+    <div class="lightbox">
+      <div id="lightbox"></div>
+    </div>
+
     <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script>
       jQuery(function ($) {
@@ -479,6 +507,25 @@
           $('html').animate({ scrollLeft: offset - width });
           $hash.animate({ scrollTop: 0 });
           event.preventDefault();
+        });
+
+        $('#media a').on('click', function (event) {
+          var href = event.currentTarget.href;
+
+          $('#lightbox').css('background-image', 'url("' + href + '")');
+          $('.lightbox').css('display', 'block');
+          event.preventDefault();
+        });
+
+        $('.lightbox').on('click', function (event) {
+          $('.lightbox').css('display', 'none');
+          event.preventDefault();
+        });
+
+        $('html').on('keydown', function (event) {
+          if (event.keyCode === 27) {
+            $('.lightbox').css('display', 'none');
+          }
         });
       });
     </script>
