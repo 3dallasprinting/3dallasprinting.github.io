@@ -211,6 +211,33 @@
         width: 300px;
       }
 
+      #about hr {
+        background: rgb(250, 203, 27);
+        border: 0;
+        display: block;
+        height: 5px;
+        margin: 20px 0;
+      }
+
+      .two-columns {
+         -moz-columns: 2;
+         -webkit-columns: 2;
+         columns: 2;
+      }
+
+      #about h2 {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      #about ul {
+        list-style: disc outside;
+      }
+
+      #about li {
+        margin: 10px 0 0 20px;
+      }
+
       /* Media */
 
       #media {
@@ -381,10 +408,7 @@
         <div class="container">
           <div class="color-bar"></div>
 
-          <h1>
-            Here Is What We<br>
-            Can Do For You
-          </h1>
+          <h1>Here Is What We Can Do For You</h1>
 
           <img alt="" src="/static/images/eden-260v.png">
 
@@ -392,28 +416,30 @@
 
           <hr>
 
-          <div>
-            <h2>Capabilities</h2>
+          <div class="two-columns">
+            <div>
+              <h2>Capabilities</h2>
 
-            <ul>
-              <li>Nam vulputate dapibus purus, sagittis venenatis lectus luctus in.</li>
+              <ul>
+                <li>Nam vulputate dapibus purus, sagittis venenatis lectus luctus in.</li>
 
-              <li>Nullam vel nulla dictum, aliquet quam et, viverra libero.</li>
+                <li>Nullam vel nulla dictum, aliquet quam et, viverra libero.</li>
 
-              <li>Phasellus nec eros elementum, bibendum metus non, placerat urna.</li>
-            </ul>
-          </div>
+                <li>Phasellus nec eros elementum, bibendum metus non, placerat urna.</li>
+              </ul>
+            </div>
 
-          <div>
-            <h2>Materials</h2>
+            <div>
+              <h2>Materials</h2>
 
-            <ul>
-              <li>Nam vulputate dapibus purus, sagittis venenatis lectus luctus in.</li>
+              <ul>
+                <li>Nam vulputate dapibus purus, sagittis venenatis lectus luctus in.</li>
 
-              <li>Nullam vel nulla dictum, aliquet quam et, viverra libero.</li>
+                <li>Nullam vel nulla dictum, aliquet quam et, viverra libero.</li>
 
-              <li>Phasellus nec eros elementum, bibendum metus non, placerat urna.</li>
-            </ul>
+                <li>Phasellus nec eros elementum, bibendum metus non, placerat urna.</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
