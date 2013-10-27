@@ -504,7 +504,7 @@
               offset = $hash.offset().left,
               width = parseInt($('.sidebar').css('width'), 10);
 
-          $('html').animate({ scrollLeft: offset - width });
+          $('body').animate({ scrollLeft: offset - width });
           $hash.animate({ scrollTop: 0 });
           event.preventDefault();
         });
