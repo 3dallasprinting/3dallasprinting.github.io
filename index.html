@@ -296,6 +296,38 @@
         margin-bottom: 1em;
       }
 
+      .breakout {
+        border: thin dashed grey;
+        float: right;
+        padding: 20px;
+      }
+
+      .contact-long {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 36px;
+      }
+
+      .contact-long li {
+      }
+
+      .contact-long p {
+        padding-left: 36px;
+      }
+
+      .contact-long img {
+        display: block;
+        float: left;
+        height: 28px;
+        margin-left: -36px;
+        width: 28px;
+      }
+
+      .contact-long a {
+        color: #00adef;
+        text-decoration: none;
+      }
+
       /* Lightbox */
 
       .lightbox {
@@ -519,7 +551,9 @@
 
           <p>Vestibulum euismod dolor magna, non placerat eros congue et. Vestibulum ac sem id ligula pulvinar aliquet eu a nulla. Aenean accumsan ultricies risus fringilla congue. Aliquam malesuada interdum sem vitae vehicula. In vitae viverra turpis. Vestibulum sit amet augue velit. Nunc sodales ac elit vitae congue.</p>
 
-          <div>
+          <br>
+
+          <div class="breakout">
             <a href="mailto:print@3dallasprinting.com">
               <img alt="Submit a print file" heigh="54" src="/static/images/submit.png" width="313">
             </a>
@@ -527,11 +561,23 @@
             <p class="notice">.STL files only. Please contact us for a print quote or for more information on orders.</p>
           </div>
 
-          <p>Please call <a href="tel:9729071803">972.907.1803</a> for more information,</p>
+          <ul class="contact-long">
+            <li>
+              <p>
+                <img alt="" height="20" src="/static/images/phone.png" width="20">
+                Please call <a href="tel:9729071803">972.907.1803</a> for more information,
+              </p>
+            </li>
 
-          <p>or email us at <a href="mailto:print@3dallasprinting.com">print@3dallasprinting.com</a></p>
+            <li>
+              <p>
+                <img alt="" height="20" src="/static/images/email.png" width="20">
+                or email us at <a href="mailto:print@3dallasprinting.com">print@3dallasprinting.com</a>
+              </p>
+            </li>
+          </ul>
 
-          <p class="tagline">"Our Queue Will Never Be Full"</p>
+          <p class="tagline" style="clear: both;">"Our Queue Will Never Be Full"</p>
         </div>
       </div>
     </div>
