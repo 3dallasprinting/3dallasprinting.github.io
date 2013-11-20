@@ -1,0 +1,44 @@
+#contact {
+  left: 400%;
+}
+
+#contact h1 {
+  color: #00adef;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+.breakout {
+  border: thin dashed grey;
+  float: right;
+  padding: 20px;
+}
+
+.contact-long {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+}
+
+.contact-long li {
+}
+
+.contact-long p {
+  padding-left: 36px;
+}
+
+.contact-long img {
+  display: block;
+  float: left;
+  height: 28px;
+  margin-left: -36px;
+  width: 28px;
+}
+
+.contact-long a {
+  color: #00adef;
+  text-decoration: none;
+}

@@ -1,0 +1,62 @@
+#about {
+  left: 100%;
+}
+
+#about .container {
+  padding-left: 340px;
+}
+
+#about h1 {
+  color: #00adef;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+.color-bar {
+  background: #00adef;
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#about img {
+  display: block;
+  height: auto;
+  left: 20px;
+  margin-top: -194px;
+  position: absolute;
+  top: 50%;
+  width: 300px;
+}
+
+#about hr {
+  background: rgb(250, 203, 27);
+  border: 0;
+  display: block;
+  height: 5px;
+  margin: 20px 0;
+}
+
+.two-columns {
+   -moz-columns: 2;
+   -webkit-columns: 2;
+   columns: 2;
+}
+
+#about h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#about ul {
+  list-style: disc outside;
+}
+
+#about li {
+  margin: 10px 0 0 20px;
+}

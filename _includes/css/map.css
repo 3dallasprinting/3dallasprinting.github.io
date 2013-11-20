@@ -1,0 +1,11 @@
+#map {
+  background: url("/static/images/map.jpg") repeat scroll left top / cover transparent;
+  left: 500%;
+}
+
+#map a {
+  display: block;
+  height: 100%;
+  text-indent: -9999px;
+  width: 100%;
+}

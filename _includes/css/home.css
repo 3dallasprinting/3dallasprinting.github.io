@@ -1,0 +1,33 @@
+#home {
+  background: url("/static/images/3d-printed-sugar.jpg") repeat scroll left top / cover transparent;
+}
+
+.masthead {
+  color: #475965;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  line-height: 96px;
+}
+
+.subhead {
+  color: #02afeb;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 40px;
+  margin: 20px 0;
+}
+
+.notice {
+  color: #69676a;
+  font-size: 12px;
+  line-height: 16px;
+  width: 313px;
+}
+
+.tagline {
+  color: #3c4d55;
+  font-size: 32px;
+  font-style: italic;
+  margin-top: 80px;
+}

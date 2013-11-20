@@ -1,0 +1,48 @@
+html,
+body {
+  font: 16px/20px Roboto, sans-serif;
+  height: 100%;
+}
+
+/* Pages */
+
+.pages {
+  height: 100%;
+  margin-left: 185px;
+  position: relative;
+}
+
+.page {
+  height: 100%;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  padding: 20px;
+}
+
+/* Lightbox */
+
+.lightbox {
+  background:
+    url('http://ajaxload.info/cache/00/00/00/FF/FF/FF/1-1.gif') no-repeat center,
+    rgba(0, 0, 0, 0.5);
+  display: none;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#lightbox {
+  background: no-repeat center / contain;
+  height: 90%;
+  left: 5%;
+  position: absolute;
+  top: 5%;
+  width: 90%;
+}

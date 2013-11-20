@@ -1,0 +1,26 @@
+#inspiration {
+  background: #00adef;
+  color: #fff;
+  left: 300%;
+}
+
+#inspiration h1 {
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 1em;
+  margin-bottom: 1em;
+}
+
+#inspiration h2 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.25em;
+  margin-bottom: 2.5em;
+}
+
+.three-columns {
+  -moz-columns: 3;
+  -webkit-columns: 3;
+  columns: 3;
+}
