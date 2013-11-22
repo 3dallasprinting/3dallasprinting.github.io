@@ -1,33 +1,43 @@
 #home {
-  background: url("/static/images/3d-printed-sugar.jpg") repeat scroll left top / cover transparent;
+  background: #00253d;
+  left: 0;
 }
 
-.masthead {
-  color: #475965;
-  font-family: 'Roboto Slab', sans-serif;
-  font-size: 90px;
-  font-weight: bold;
-  line-height: 96px;
+#home .container {
+  padding-left: 40px;
 }
 
-.subhead {
-  color: #02afeb;
-  font-size: 32px;
-  font-weight: bold;
-  line-height: 40px;
-  margin: 20px 0;
+#home h1 {
+  color: #ffffff;
+  font: bold 100px/96px 'Roboto Slab', sans-serif;
+  letter-spacing: 1px;
 }
 
-.notice {
-  color: #69676a;
-  font-size: 12px;
-  line-height: 16px;
+#home h2 {
+  color: #199ad6;
+  font: bold 32px/1 Roboto, sans-serif;
+  margin: 54px 0 0 4px;
+}
+
+#home img {
+  margin: 36px 0 0 2px;
+}
+
+#home .notice {
+  color: #666666;
+  font: 12px/14px Roboto;
+  margin: 4px 0 0 2px;
   width: 313px;
 }
 
-.tagline {
-  color: #3c4d55;
-  font-size: 32px;
-  font-style: italic;
-  margin-top: 80px;
+#home .box {
+  color: #2899db;
+  font: bold 20px/24px Roboto;
+  margin: 25px 0 0 4px;
+}
+
+#home .tagline {
+  color: #ffffff;
+  font: bold 18px/20px Roboto;
+  margin: 2px 0 0 2px;
 }

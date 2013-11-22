@@ -1,26 +1,44 @@
 #inspiration {
-  background: #00adef;
-  color: #fff;
+  background: #00adee;
   left: 300%;
 }
 
 #inspiration h1 {
-  font-size: 72px;
-  font-style: italic;
-  font-weight: 100;
-  line-height: 1em;
-  margin-bottom: 1em;
+  color: #ffffff;
+  font: 100 italic 70px/100px roboto;
+  margin-top: 35px;
+}
+
+#inspiration blockquote {
+  color: #ffffff;
+  font: bold 20px/24px roboto;
+  margin-top: 16px;
+}
+
+#inspiration cite {
+  color: #ffffff;
+  float: right;
+  font: bold 20px/24px roboto;
 }
 
 #inspiration h2 {
-  font-size: 28px;
-  font-weight: bold;
-  line-height: 1.25em;
-  margin-bottom: 2.5em;
+  color: #444444;
+  font: bold 20px/24px roboto;
+  margin-top: 55px;
 }
 
-.three-columns {
-  -moz-columns: 3;
-  -webkit-columns: 3;
-  columns: 3;
+#inspiration ul {
+  color: #ffffff;
+  font: bold 16px/24px roboto;
+  list-style: none;
+  margin-top: 16px;
+}
+
+#inspiration .left {
+  float: left;
+}
+
+#inspiration .right {
+  float: left;
+  margin-left: 70px;
 }

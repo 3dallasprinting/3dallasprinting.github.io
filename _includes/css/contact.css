@@ -3,42 +3,54 @@
 }
 
 #contact h1 {
-  color: #00adef;
-  font-size: 72px;
-  font-style: italic;
-  font-weight: 100;
-  line-height: 1em;
-  margin-bottom: 1em;
+  color: #00aced;
+  font: 100 italic 70px/1 roboto;
+  margin-top: 50px;
 }
 
-.breakout {
-  border: thin dashed grey;
+#contact .body {
+  color: #666666;
+  font: 16px/19px roboto;
+  margin-top: 30px;
+  width: 600px;
+}
+
+#contact .aside {
   float: right;
-  padding: 20px;
+  margin-top: 82px;
 }
 
-.contact-long {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 36px;
+#contact .aside p {
+  color: #666666;
+  font: 12px/15px roboto;
+  margin-top: 2px;
+  width: 313px;
 }
 
-.contact-long li {
+#contact ul {
+  font: bold italic 32px/34px roboto;
+  list-style: none;
+  margin-top: 56px;
 }
 
-.contact-long p {
-  padding-left: 36px;
+#contact li {
+  margin-top: 40px;
+  margin-left: 60px;
+  position: relative;
 }
 
-.contact-long img {
-  display: block;
-  float: left;
-  height: 28px;
-  margin-left: -36px;
-  width: 28px;
+#contact li img {
+  left: -60px;
+  position: absolute;
+  top: 10px;
 }
 
-.contact-long a {
-  color: #00adef;
+#contact li a {
+  color: #00b8f1;
   text-decoration: none;
+}
+
+#contact h2 {
+  font: italic 30px roboto;
+  margin-top: 93px;
 }

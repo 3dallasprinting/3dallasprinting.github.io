@@ -3,9 +3,10 @@
 }
 
 #media img {
+  background: #666666;
   display: block;
   float: left;
-  height: 200px;
+  height: 174px;
   margin: 0 2px 2px 0;
-  width: 200px;
+  width: 174px;
 }
