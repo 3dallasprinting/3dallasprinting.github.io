@@ -1,0 +1,77 @@
+#about {
+  left: 100%;
+}
+
+#about .container {
+  border-left: 160px solid #00253d;
+  min-height: 100%;
+  padding-left: 160px;
+}
+
+#about img {
+  height: auto;
+  left: 20px;
+  position: absolute;
+  top: 80px;
+  width: 280px;
+}
+
+#about h1 {
+  color: #00aced;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 66px;
+  margin-top: 52px;
+}
+
+#about p {
+  color: #666666;
+  line-height: 19px;
+  margin-top: 39px;
+}
+
+#about hr {
+  background: #666666;
+  border: 0;
+  display: block;
+  height: 5px;
+  margin-top: 15px;
+}
+
+#about h3 {
+  color: #445963;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 16px;
+  margin: 13px 0 17px 0;
+}
+
+#about ul {
+  color: #445963;
+  font-size: 14px;
+  line-height: 17px;
+  list-style: outside disc;
+  width: 40%;
+}
+
+#about li {
+  margin: 0 0 10px 6px;
+}
+
+#about .left {
+  float: left;
+}
+
+#about .right {
+  float: left;
+  margin-left: 5%;
+}
+
+#about .clear {
+  clear: both;
+  list-style-position: inside;
+  padding-top: 20px;
+  text-align: center;
+  width: auto;
+}

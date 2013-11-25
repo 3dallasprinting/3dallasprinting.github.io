@@ -19,61 +19,50 @@ layout: nil
     <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
     <link href="http://yui.yahooapis.com/3.13.0/build/cssreset/cssreset-min.css" rel="stylesheet">
-
-    <style>
-      {% include css/3dp.css %}
-
-      {% include css/sidebar.css %}
-      {% include css/home.css %}
-      {% include css/about.css %}
-      {% include css/media.css %}
-      {% include css/inspiration.css %}
-      {% include css/contact.css %}
-      {% include css/map.css %}
-    </style>
+    <link href="/static/styles/3dp.css" rel="stylesheet">
 
     <title>3Dallas Printing</title>
   </head>
 
   <body>
     <div class="sidebar">
-      {% include html/sidebar.html %}
+      {% include pages/sidebar.html %}
     </div>
 
     <div class="pages">
       <div class="page" id="home">
         <div class="container">
-          {% include html/home.html %}
+          {% include pages/home.html %}
         </div>
       </div>
 
       <div class="page" id="about">
         <div class="container">
-          {% include html/about.html %}
+          {% include pages/about.html %}
         </div>
       </div>
 
       <div class="page" id="media">
         <div class="container">
-          {% include html/media.html %}
+          {% include pages/media.html %}
         </div>
       </div>
 
       <div class="page" id="inspiration">
         <div class="container">
-          {% include html/inspiration.html %}
+          {% include pages/inspiration.html %}
         </div>
       </div>
 
       <div class="page" id="contact">
         <div class="container">
-          {% include html/contact.html %}
+          {% include pages/contact.html %}
         </div>
       </div>
 
       <div class="page" id="map">
         <div class="container">
-          {% include html/map.html %}
+          {% include pages/map.html %}
         </div>
       </div>
     </div>
@@ -82,9 +71,7 @@ layout: nil
       <div id="lightbox"></div>
     </div>
 
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
-    <script>
-      {% include js/3dp.js %}
-    </script>
+    <script src="//code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="/static/scripts/3dp.js"></script>
   </body>
 </html>
