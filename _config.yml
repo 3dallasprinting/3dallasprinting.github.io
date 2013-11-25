@@ -3,3 +3,9 @@
 permalink: pretty
 safe: true
 timezone: America/Chicago
+
+exclude:
+- CNAME
+- Gemfile
+- Gemfile.lock
+- README.md
