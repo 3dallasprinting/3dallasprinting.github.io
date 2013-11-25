@@ -1,5 +1,5 @@
 #map {
-  background: url('/static/images/map.jpg') repeat scroll left top / cover transparent;
+  background: url('../images/map.jpg') repeat scroll left top / cover transparent;
   left: 500%;
 }
 
