@@ -19,13 +19,16 @@
 
 #about h1 {
   color: #00aced;
-  font: 100 italic 72px/66px Roboto;
+  font-size: 72px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 66px;
   margin-top: 52px;
 }
 
 #about p {
   color: #666666;
-  font: 16px/19px Roboto;
+  line-height: 19px;
   margin-top: 39px;
 }
 
@@ -39,7 +42,9 @@
 
 #about h3 {
   color: #445963;
-  font: bold 20px/16px Roboto;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 16px;
   margin: 13px 0 17px 0;
 }
 

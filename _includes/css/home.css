@@ -7,6 +7,20 @@
   padding-left: 40px;
 }
 
+#home video {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: auto;
+  z-index: 0;
+}
+
+#home .wrapper {
+  position: relative;
+  z-index: 1;
+}
+
 #home h1 {
   color: #ffffff;
   font: bold 100px/96px 'Roboto Slab', sans-serif;

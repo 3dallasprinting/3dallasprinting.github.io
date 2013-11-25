@@ -3,6 +3,11 @@
   left: 500%;
 }
 
+#map .container {
+  height: 100%;
+  padding: 0;
+}
+
 #map a {
   display: block;
   height: 100%;
