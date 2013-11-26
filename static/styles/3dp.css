@@ -4,6 +4,7 @@ layout: nil
 
 html,
 body {
+  background: #f5f5f5;
   font: 16px/20px Roboto, sans-serif;
   height: 100%;
 }
