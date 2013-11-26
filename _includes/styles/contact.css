@@ -2,6 +2,10 @@
   left: 400%;
 }
 
+#contact .container {
+  padding-left: 60px;
+}
+
 #contact h1 {
   color: #00aced;
   font-size: 70px;
