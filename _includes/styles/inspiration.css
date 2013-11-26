@@ -3,6 +3,11 @@
   left: 300%;
 }
 
+#inspiration .container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 #inspiration h1 {
   color: #ffffff;
   font-size: 70px;
