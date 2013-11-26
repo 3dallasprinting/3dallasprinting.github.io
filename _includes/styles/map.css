@@ -7,10 +7,3 @@
   height: 100%;
   padding: 0;
 }
-
-#map a {
-  display: block;
-  height: 100%;
-  text-indent: -9999px;
-  width: 100%;
-}
