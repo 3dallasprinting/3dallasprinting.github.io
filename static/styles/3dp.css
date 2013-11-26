@@ -27,7 +27,7 @@ body {
 
 .lightbox {
   background:
-    url('images/loading.gif') no-repeat center,
+    url('../images/loading.gif') no-repeat center,
     rgba(0, 0, 0, 0.5);
   display: none;
   height: 100%;
