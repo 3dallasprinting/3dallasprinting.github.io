@@ -2,10 +2,17 @@
   left: 200%;
 }
 
+#media .container {
+  text-align: center;
+}
+
+#media a {
+  text-decoration: none;
+}
+
 #media img {
   background: #666666;
-  display: block;
-  float: left;
+  display: inline-block;
   height: 174px;
   margin: 0 2px 2px 0;
   width: 174px;
