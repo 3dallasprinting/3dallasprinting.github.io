@@ -4,7 +4,7 @@ jQuery(function ($) {
         offset = $hash.offset().left,
         width = parseInt($('.sidebar').css('width'), 10);
 
-    $('body').animate({ scrollLeft: offset - width });
+    $('html, body').animate({ scrollLeft: offset - width });
     $hash.animate({ scrollTop: 0 });
     event.preventDefault();
   });
