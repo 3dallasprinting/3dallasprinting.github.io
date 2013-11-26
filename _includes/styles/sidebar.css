@@ -21,17 +21,23 @@
   font-size: 18px;
   font-weight: bold;
   letter-spacing: 1px;
-  line-height: 53px;
+  line-height: 40px;
   list-style: none;
-  margin-top: 5px;
   text-transform: lowercase;
 }
 
 .sidebar .nav a {
+  border-right: 6px solid transparent;
   color: #00263d;
   display: block;
+  margin-top: 15px;
   padding: 0 17px;
   text-decoration: none;
+}
+
+.sidebar .nav a:hover {
+  background: #dbdddc;
+  border-right-color: #199ad6;
 }
 
 .sidebar .contact {
