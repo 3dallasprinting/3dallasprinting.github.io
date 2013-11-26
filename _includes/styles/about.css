@@ -4,6 +4,7 @@
 
 #about .container {
   border-left: 160px solid #00253d;
+  max-width: 650px;
   min-height: 100%;
   padding-left: 160px;
 }
