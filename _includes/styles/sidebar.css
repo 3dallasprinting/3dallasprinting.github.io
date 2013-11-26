@@ -1,5 +1,7 @@
 .sidebar {
+  background-clip: padding-box;
   background: #f5f5f5;
+  border-right: 5px solid rgba(0, 0, 0, 0.2);
   bottom: 0;
   left: 0;
   position: fixed;
