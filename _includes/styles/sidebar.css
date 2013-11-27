@@ -1,0 +1,94 @@
+.sidebar {
+  background: #f5f5f5 padding-box;
+  border-right: 5px solid rgba(0, 0, 0, 0.2);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 187px;
+  z-index: 2;
+}
+
+.sidebar .logo img {
+  background: #ffffff;
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.sidebar .nav {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 40px;
+  list-style: none;
+  text-transform: lowercase;
+}
+
+.sidebar .nav a {
+  border-right: 6px solid transparent;
+  color: #00263d;
+  display: block;
+  margin-top: 15px;
+  padding: 0 17px;
+  text-decoration: none;
+}
+
+.sidebar .nav a:hover {
+  background: #dbdddc;
+  border-right-color: #199ad6;
+}
+
+.sidebar .contact {
+  bottom: 66px;
+  left: 20px;
+  line-height: 31px;
+  position: absolute;
+}
+
+.sidebar .contact a {
+  color: #00b8f1;
+  text-decoration: none;
+}
+
+.sidebar .contact a:hover {
+  color: #0a3b61;
+  /* TODO image hover */
+}
+
+.sidebar .contact img {
+  margin-right: 4px;
+  vertical-align: text-bottom;
+}
+
+.sidebar .social {
+  bottom: 8px;
+  left: 24px;
+  position: absolute;
+}
+
+.sidebar .social li {
+  float: left;
+}
+
+.sidebar .social a {
+  display: block;
+  height: 37px;
+  overflow: hidden;
+  width: 37px;
+}
+
+.sidebar .social a:hover img {
+  margin: 3px 0 0 3px;
+}
+
+.sidebar .social .twitter {
+  margin-left: 2px;
+}
+
+.sidebar .social .share {
+  font-style: italic;
+  letter-spacing: 1px;
+  line-height: 34px;
+  margin-left: 9px;
+}

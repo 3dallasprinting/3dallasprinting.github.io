@@ -1,0 +1,10 @@
+#map {
+  background: url('../images/map.jpg') repeat scroll left top / cover transparent;
+  left: 490%;
+}
+
+#map .container {
+  height: 100%;
+  overflow: hidden;
+  padding: 0;
+}

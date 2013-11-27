@@ -1,45 +1,77 @@
 ---
-layout: base
+layout: nil
 ---
 
-<div class="container">
-  <div class="column">
-    <img alt="3Dallas Printing" class="logo" height="405" src="/static/images/3dallas-printing.png" width="596">
+<!doctype html>
 
-    <p class="tagline">"Our Queue Will Never Be Full"</p>
-  </div>
+<!--
+   ___ ____      _ _            _____     _     _   _
+  |_  |    \ ___| | |___ ___   |  _  |___|_|___| |_|_|___ ___
+  |_  |  |  | .'| | | .'|_ -|  |   __|  _| |   |  _| |   | . |
+  |___|____/|__,|_|_|__,|___|  |__|  |_| |_|_|_|_| |_|_|_|_  |
+                                                         |___|
+-->
 
-  <div class="column">
-    <div class="main">
-      <h1 class="header">DFW finally has<br>a real 3D Print Shop</h1>
+<html>
+  <head>
+    <meta charset="utf-8">
 
-      <p class="blurb">3Dallas Printing runs a Object260v which allows for a vast array of precise 16-micron printing with the widest range of materials.</p>
+    <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
+    <link href="static/styles/yui-css-reset-3.13.0.min.css" rel="stylesheet">
+    <link href="static/styles/3dp.css" rel="stylesheet">
 
-      <p class="blurb">The perfect solution for your rapid prototyping needs.</p>
+    <title>3Dallas Printing</title>
+  </head>
 
-      <div class="contact">
-        <img alt="Phone" class="contact-icon" src="/static/images/phone.png">
-
-        <p class="contact-blurb">Please call 972.907.1803<br>for more information,</p>
-      </div>
-
-      <div class="contact">
-        <img alt="Email" class="contact-icon" src="/static/images/email.png">
-
-        <p class="contact-blurb">or email us at<br><a href="mailto:print@3dallasprinting.com">print@3dallasprinting.com</a></p>
-      </div>
-
-      <a class="submit-link" href="mailto:print@3dallasprinting.com"><img alt="Submit a print file" class="submit-icon" height="54" src="/static/images/submit.png" width="313"></a>
-
-      <p class="small">.STL files only. Please contact us for a print quote or for more information on orders.</p>
+  <body>
+    <div class="sidebar">
+      {% include pages/sidebar.html %}
     </div>
 
-    <div class="social">
-      <a class="social-link" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2F3dallasprinting.com"><img alt="Facebook" class="social-icon" src="/static/images/facebook.png"></a>
+    <div class="pages">
+      <div class="page" id="home">
+        <div class="container">
+          {% include pages/home.html %}
+        </div>
+      </div>
 
-      <a class="social-link" href="https://twitter.com/intent/tweet?url=http%3A%2F%2F3dallasprinting.com"><img alt="Twitter" class="social-icon" src="/static/images/twitter.png"></a>
+      <div class="page" id="about">
+        <div class="container">
+          {% include pages/about.html %}
+        </div>
+      </div>
 
-      <p class="social-blurb">Don't be shy, let everyone else know.</p>
+      <div class="page" id="examples">
+        <div class="container">
+          {% include pages/examples.html %}
+        </div>
+      </div>
+
+      <div class="page" id="testimonials">
+        <div class="container">
+          {% include pages/testimonials.html %}
+        </div>
+      </div>
+
+      <div class="page" id="contact">
+        <div class="container">
+          {% include pages/contact.html %}
+        </div>
+      </div>
+
+      <div class="page" id="map">
+        <div class="container">
+          {% include pages/map.html %}
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+
+    <div class="lightbox">
+      <div id="lightbox"></div>
+    </div>
+
+    <script src="static/scripts/jquery-2.0.3.min.js"></script>
+    <script src="static/scripts/3dp.js"></script>
+  </body>
+</html>
