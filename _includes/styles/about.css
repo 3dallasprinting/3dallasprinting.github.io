@@ -6,7 +6,7 @@
   border-left: 160px solid #00253d;
   max-width: 650px;
   min-height: 100%;
-  padding-left: 160px;
+  padding: 0 20px 0 160px;
 }
 
 #about img {
@@ -23,7 +23,7 @@
   font-style: italic;
   font-weight: 100;
   line-height: 66px;
-  margin-top: 52px;
+  padding-top: 52px;
 }
 
 #about p {
@@ -67,4 +67,9 @@
 #about .right {
   float: left;
   margin-left: 5%;
+}
+
+#about .clear {
+  clear: both;
+  padding-top: 20px;
 }
