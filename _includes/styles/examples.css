@@ -1,16 +1,16 @@
-#media {
+#examples {
   left: 200%;
 }
 
-#media .container {
+#examples .container {
   text-align: center;
 }
 
-#media a {
+#examples a {
   text-decoration: none;
 }
 
-#media img {
+#examples img {
   background: #666666;
   display: inline-block;
   height: 174px;

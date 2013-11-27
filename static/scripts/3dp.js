@@ -9,7 +9,7 @@ jQuery(function ($) {
     event.preventDefault();
   });
 
-  $('#media a').on('click', function (event) {
+  $('#examples a').on('click', function (event) {
     var href = event.currentTarget.href;
 
     $('#lightbox').css('background-image', 'url("' + href + '")');
