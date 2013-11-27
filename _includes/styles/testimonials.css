@@ -1,14 +1,14 @@
-#inspiration {
+#testimonials {
   background: #00adee;
   left: 300%;
 }
 
-#inspiration .container {
+#testimonials .container {
   margin: 0 auto;
   max-width: 800px;
 }
 
-#inspiration h1 {
+#testimonials h1 {
   color: #ffffff;
   font-size: 70px;
   font-style: italic;
@@ -17,7 +17,7 @@
   margin-top: 35px;
 }
 
-#inspiration blockquote {
+#testimonials blockquote {
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
@@ -25,11 +25,11 @@
   margin-top: 16px;
 }
 
-#inspiration cite + blockquote {
+#testimonials cite + blockquote {
    margin-top: 47px;
 }
 
-#inspiration cite {
+#testimonials cite {
   color: #ffffff;
   float: right;
   font-size: 20px;
@@ -37,7 +37,7 @@
   line-height: 24px;
 }
 
-#inspiration h2 {
+#testimonials h2 {
   color: #444444;
   font-size: 20px;
   font-weight: bold;
@@ -45,7 +45,7 @@
   margin-top: 55px;
 }
 
-#inspiration ul {
+#testimonials ul {
   color: #ffffff;
   font-weight: bold;
   line-height: 24px;
@@ -53,11 +53,11 @@
   margin-top: 16px;
 }
 
-#inspiration .left {
+#testimonials .left {
   float: left;
 }
 
-#inspiration .right {
+#testimonials .right {
   float: left;
   margin-left: 70px;
 }
