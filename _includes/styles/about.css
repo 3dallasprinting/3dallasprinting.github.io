@@ -68,11 +68,3 @@
   float: left;
   margin-left: 5%;
 }
-
-#about .clear {
-  clear: both;
-  list-style-position: inside;
-  padding-top: 20px;
-  text-align: center;
-  width: auto;
-}
