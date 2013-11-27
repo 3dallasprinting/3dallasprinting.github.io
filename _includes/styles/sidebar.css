@@ -51,6 +51,11 @@
   text-decoration: none;
 }
 
+.sidebar .contact a:hover {
+  color: #0a3b61;
+  /* TODO image hover */
+}
+
 .sidebar .contact img {
   margin-right: 4px;
   vertical-align: text-bottom;
