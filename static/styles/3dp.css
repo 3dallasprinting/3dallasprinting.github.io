@@ -48,6 +48,17 @@ body {
   width: 90%;
 }
 
+.submit {
+  display: block;
+  height: 54px;
+  overflow: hidden;
+  width: 313px;
+}
+
+.submit:hover img {
+  margin: 3px 0 0 3px;
+}
+
 {% include styles/sidebar.css %}
 {% include styles/home.css %}
 {% include styles/about.css %}

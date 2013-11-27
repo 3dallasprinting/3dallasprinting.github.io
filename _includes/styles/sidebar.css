@@ -66,6 +66,17 @@
   float: left;
 }
 
+.sidebar .social a {
+  display: block;
+  height: 37px;
+  overflow: hidden;
+  width: 37px;
+}
+
+.sidebar .social a:hover img {
+  margin: 3px 0 0 3px;
+}
+
 .sidebar .social .twitter {
   margin-left: 2px;
 }
