@@ -1,7 +1,4 @@
-%YAML 1.1
----
 permalink: pretty
-safe: true
 timezone: America/Chicago
 
 exclude:
@@ -9,3 +6,4 @@ exclude:
 - Gemfile
 - Gemfile.lock
 - README.md
+- vendor
